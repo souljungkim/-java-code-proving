@@ -1,2 +1,3 @@
 rootProject.name = 'java-code-proving'
+include 'groovy-code', 'kotlin-code'
 
