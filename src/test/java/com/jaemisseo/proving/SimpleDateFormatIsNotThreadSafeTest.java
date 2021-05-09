@@ -14,9 +14,9 @@ import java.util.concurrent.ExecutionException;
  *
  * SimpleDateFormat is not thread safe.
  *
- *	- Someone says: "It is not thread safe."
- *  - Someone says: "Never use DateFormat, SimpleDateFormat, Date, and Calendar classes. These terrible classes are all legacy now. They were supplanted years ago by the modern java.time classes defined in JSR 310. The java.time classes are thread-safe by design, using immutable objects"
- *  - Someone says: "this hasn't been fixed in JDK8 per se. but JDK8 introduces the new java.time package, including DateTimeFormatter which is threadsafe."
+ *		- Someone says: "It is not thread safe."
+ *  	- Someone says: "Never use DateFormat, SimpleDateFormat, Date, and Calendar classes. These terrible classes are all legacy now. They were supplanted years ago by the modern java.time classes defined in JSR 310. The java.time classes are thread-safe by design, using immutable objects."
+ *  	- Someone says: "this hasn't been fixed in JDK8 per se. but JDK8 introduces the new java.time package, including DateTimeFormatter which is threadsafe."
  *
  **************************************************/
 public class SimpleDateFormatIsNotThreadSafeTest extends JaemisseoTestUtil {
